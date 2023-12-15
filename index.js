@@ -36,6 +36,14 @@ app.use('/login', loginRoute);
 app.use('/queue', queueRoute);
 app.use('/party', partyRoute);
 
+app.use('/', (req, res) => {
+    if (config.onAir) {
+        res.redirect('/party');
+    } else {
+        res.redirect('/init');
+    }
+});
+
 app.listen(PORT, function () {
     console.log('Listening on ' + PORT);
 });
