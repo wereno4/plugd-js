@@ -2,7 +2,7 @@
 
 Your home plug.dj alternative built with JavaScript.
 
-## What is it?
+## What is this?
 
 I made this because I want to get some low cost plug.dj alternative to use in my house or party places. I think it almost work just as plug.dj did. But there are some little differences.
 
@@ -18,11 +18,13 @@ I didn't consider the online version before I pushed to GitHub repo, but I'll tr
 
 ### Installation
 
-First of all, you need your computer with Node.js installed. (Size doesn't matter as long as you can run your server stably) And internet router is required so that your friends can connect to server and play the song with their own devices. Also, you have to get the key for YouTube Data API. It has free quota and you should pay the cost if you exceed the quota. But you don't have to worry unless you're doing it so much that you can't even imagine. [Click here](https://developers.google.com/youtube/v3/getting-started "YouTube Data API Overview") to learn how to get the API key. You don't have to get client ID, just API Key. And most of all, you should bring your friends to the party.
+First of all, you need your computer with Node.js installed. (Size doesn't matter as long as you can run your server stably) And internet router is required so that your friends can connect to server and play the song with their own devices.
+
+Also, you have to get the key for YouTube Data API. It has free quota and you should pay the cost if you exceed the quota. But you don't have to worry unless you're doing it so much that you can't even imagine. [Click here](https://developers.google.com/youtube/v3/getting-started "YouTube Data API Overview") to learn how to get the API key. You don't have to get client ID, just API Key. And most of all, you should bring your friends to the party.
 
 You have to use CLI console to follow this instruction, such as Command Prompt or Terminal or whatever.
 
-1. Install [Node.js](https://nodejs.org "Node.js") and download Plugd.js from GitHub. Using Git is the best, but you don't have to if you don't have Git on your computer because you can download the ZIP file on this repository page.
+1. Install [Node.js](https://nodejs.org "Node.js") and download Plugd.js from GitHub. Using Git is the best, but you don't have to if you don't have Git on your computer. Because you can download the ZIP file on this repository page.
 
 ```sh
 git clone https://github.com/wereno4/plugd-js.git
@@ -33,7 +35,7 @@ git clone https://github.com/wereno4/plugd-js.git
 ```sh
 cd /Your/plugd/js/folder/address
 npm install #If you want to use npm
-yarn add #or if you want to use yarn
+yarn add #If you want to use yarn
 ```
 
 3. Copy _example.env_ file and rename it to _.env_ (env with dot in front). This file is essential since it has important data to run this app. Set _.env_ file as you need in the form of "name = value".
