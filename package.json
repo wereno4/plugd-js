@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Local music party server with JS",
   "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
   "dependencies": {
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
